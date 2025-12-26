@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import LandingPage from './pages/landingPage/LandingPage'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <LandingPage/>
-  </StrictMode>,
-)
+createRoot(document.getElementById("root")!).render(
+	<StrictMode>
+		<LandingPage />
+	</StrictMode>
+);
